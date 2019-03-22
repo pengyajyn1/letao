@@ -145,3 +145,10 @@ ul,ol {
     width: 47%;
     background-color: orangered;
 }
+
+.table.table-bordered  th,
+.table.table-bordered  td{
+    text-align: center;
+    vertical-align: middle;
+    
+}
