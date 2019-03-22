@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/nprogress/nprogress.css">
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+    <!-- 主页导航 -->
+  <div class="lt_aside">
+      <!-- 标题 -->
+      <div class="lt-text"><a href="#"javascript>乐淘首页</a></div>
+      <!-- 用户 -->
+      <div class="lt-username">
+          <img src="./images/default.png" alt="">
+          <p>超级管理员</p>
+      </div>
+
+
+      <!-- 导航 -->
+      <div class="lt-nav">
+          <ul>
+              <li>
+                 <a href="user.html">
+                     <span class="glyphicon glyphicon-user"></span>
+                     <span>用户管理</span>
+                 </a>
+              </li>
+              <li>
+                 <a href="#">
+                     <span class="glyphicon glyphicon-th-list"></span>
+                     <span>分类管理</span>
+                 </a>
+                 <div class="success" style="display: none">
+                     <a href="first.html">一级分类</a>
+                     <a href="second.html">二级分类</a>
+                 </div>
+              </li>
+              <li>
+                 <a href="product.html">
+                     <span class="glyphicon glyphicon-tags"></span>
+                     <span>商品管理</span>
+                 </a>
+              </li>
+          </ul>
+      </div>
+      
+
+
+  </div>
+  <!-- 主页内容 -->
+  <div class="lt_main">
+      <!-- 头部 -->
+      <div class="top">
+          <a href="#" class="left pull-left"><span class="glyphicon glyphicon-align-justify"></span></a>
+          <a href="#" class="right pull-right"><span class="glyphicon glyphicon-share"></span></a>
+      </div>
+
+      <!-- 面包导航 -->
+    <div class="container-fluid">
+            <ol class="breadcrumb">
+                <li><a href="index.html">管理系统</a></li>
+                <li class="active">首页</li> 
+             </ol>
+
+             <!-- 每一个页面的具体内容 -->
+             <div class="lt-content">
+                 <div class="pull-left left"></div>
+                 <div class="pull-right right"></div>
+             </div>
+
+    </div>  
+    
+    
+
+  </div>
+
+ 
+  <!-- 退出的模态框 -->
+     <div class="modal fade" tabindex="-1" role="dialog" id="logoutModal">
+        <div class="modal-dialog modal-sm" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">温馨提示</h4>
+            </div>
+            <div class="modal-body">
+              <p style="color:red"> 
+                <span class="glyphicon glyphicon-info-sign"></span> 
+                您确定要退出后台管理系统吗?
+            </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+              <button type="button" class="btn btn-primary confirm">确认</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+     </div><!-- /.modal -->
+
+</body>
+<script src="./lib/jquery/jquery.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="./lib/nprogress/nprogress.js"></script>
+<script src="./lib/echarts/echarts.min.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/index.js"></script>
+
+</html>
